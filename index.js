@@ -10,8 +10,9 @@ function theBeatlesPlay(musicians, instruments) {
 
 function johnLennonFacts(arr) {
   let i = 0
-  while (count < arr.length) {
-    return(`${arr[count]}!!!`)
+  while (i < arr.length) {
+    arr[i] += "!!!"
     count += 1
   }
+  return arr
 }
