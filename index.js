@@ -17,10 +17,12 @@ function johnLennonFacts(arr) {
   return arr;
 }
 
-function iLoveTheBeatles(array) {
+function iLoveTheBeatles(x) {
   let arr = [];
   do {
     arr.push("I love the Beatles!")
-    
+    x += 1
   }
+  while (x < 15)
+  return arr;
 }
