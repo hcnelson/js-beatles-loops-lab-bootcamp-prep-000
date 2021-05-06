@@ -1,4 +1,3 @@
-// add solution here
 function theBeatlesPlay(musicians, instruments) {
  let arr = [];
  
@@ -7,4 +6,11 @@ function theBeatlesPlay(musicians, instruments) {
  }
  
  return arr;
+}
+
+function johnLennonFacts(arr) {
+  let count = 0
+  while count < arr.length {
+    return(`${arr[count]!!!`)
+  }
 }
